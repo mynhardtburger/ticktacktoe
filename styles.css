@@ -1,0 +1,66 @@
+:root {
+  color-scheme: light dark;
+  font-family: "Pangolin", cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.gameboard {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+  border-radius: 2%;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 4rem;
+  background-color: ButtonFace;
+  color: #fbf7f5;
+}
+
+.p1 {
+  background-color: #cb1c17;
+}
+
+.p2 {
+  background-color: #17c6cb;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-2px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.bounce {
+  animation: bounce 1s;
+  animation-iteration-count: infinite;
+}
