@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-My goal was to get familiar with factory functions and module patterns.
+My goal was to get familiar with factory and module patterns.
 
 I found the way in which the module pattern keeps the global namespace clean by intentionally exposing only the required properties (via the return statement) to be neat.
 
